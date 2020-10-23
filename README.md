@@ -8,7 +8,7 @@ In contrast to the original option #20 PCB, this board breaks out the sense conn
 
 The components chosen allow the board to be used on all variants of the HP 663xB family - even the 100 V 6634B. A variety of different binding posts can be used. There are HP/Agilent versions available on Ebay. I used Pomona 4243-0 ([Digikey](https://www.digikey.de/product-detail/de/pomona-electronics/4243-0/501-1126-ND/604321)) and 3760-5 ([Digikey](https://www.digikey.de/product-detail/de/pomona-electronics/3760-5/501-1506-ND/736554)) binding posts.
 
-The final results looks like this:
+The final result looks like this:
 ![HP 66332A with binding posts](images/final.jpg)
 
 About
