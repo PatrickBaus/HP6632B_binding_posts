@@ -235,6 +235,8 @@ F 0 "BP1" H 7350 1950 50  0000 L CNN
 F 1 "Conn_01x01" H 7350 1850 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7250 1900 50  0001 C CNN
 F 3 "~" H 7250 1900 50  0001 C CNN
+F 4 "Pomona" H 7250 1900 50  0001 C CNN "MFN"
+F 5 "4243-0" H 7250 1900 50  0001 C CNN "PN"
 	1    7250 1900
 	1    0    0    -1  
 $EndComp
@@ -390,6 +392,8 @@ F 0 "BP3" H 7350 2350 50  0000 L CNN
 F 1 "Conn_01x01" H 7350 2250 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7250 2300 50  0001 C CNN
 F 3 "~" H 7250 2300 50  0001 C CNN
+F 4 "Pomona" H 7250 2300 50  0001 C CNN "MFN"
+F 5 "4243-0" H 7250 2300 50  0001 C CNN "PN"
 	1    7250 2300
 	1    0    0    -1  
 $EndComp
