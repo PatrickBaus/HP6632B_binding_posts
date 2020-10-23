@@ -156,6 +156,8 @@ F 0 "BP2" H 7350 3250 50  0000 L CNN
 F 1 "Conn_01x01" H 7350 3150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7250 3200 50  0001 C CNN
 F 3 "~" H 7250 3200 50  0001 C CNN
+F 4 "1" H 7250 3200 50  0001 C CNN "DNP"
+F 5 "dnp" H 7250 3200 50  0001 C CNN "Config"
 	1    7250 3200
 	1    0    0    -1  
 $EndComp
@@ -178,7 +180,8 @@ F 1 "Conn_01x04_Male" H 1350 2800 50  0000 R CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" H 1400 2850 50  0001 C CNN
 F 3 "~" H 1400 2850 50  0001 C CNN
 F 4 "Molex" H 1400 2850 50  0001 C CNN "MFN"
-F 5 "26-60-4040" H 1400 2850 50  0001 C CNN "PN"
+F 5 "26-60-4040;09-50-8041:2" H 1400 2850 50  0001 C CNN "PN"
+F 6 "Also needed: Molex 09-50-8041" H 1400 2850 50  0001 C CNN "Note"
 	1    1400 2850
 	1    0    0    1   
 $EndComp
@@ -273,6 +276,8 @@ F 0 "BP4" H 7350 3750 50  0000 L CNN
 F 1 "Conn_01x01" H 7350 3650 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7250 3700 50  0001 C CNN
 F 3 "~" H 7250 3700 50  0001 C CNN
+F 4 "1" H 7250 3700 50  0001 C CNN "DNP"
+F 5 "dnp" H 7250 3700 50  0001 C CNN "Config"
 	1    7250 3700
 	1    0    0    -1  
 $EndComp
@@ -343,6 +348,8 @@ F 0 "BP5" H 7350 4350 50  0000 L CNN
 F 1 "Conn_01x01" H 7350 4250 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7250 4300 50  0001 C CNN
 F 3 "~" H 7250 4300 50  0001 C CNN
+F 4 "Pomona" H 7250 4300 50  0001 C CNN "MFN"
+F 5 "3760-5" H 7250 4300 50  0001 C CNN "PN"
 	1    7250 4300
 	1    0    0    -1  
 $EndComp
@@ -354,6 +361,10 @@ F 0 "J1" H 6350 4050 50  0000 C CNN
 F 1 "Conn_01x01" H 6350 4150 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6450 4300 50  0001 C CNN
 F 3 "~" H 6450 4300 50  0001 C CNN
+F 4 "RS PRO" H 6450 4300 50  0001 C CNN "MFN"
+F 5 "RS Components" H 6450 4300 50  0001 C CNN "Vendor"
+F 6 "433-028" H 6450 4300 50  0001 C CNN "rs#"
+F 7 "433-028" H 6450 4300 50  0001 C CNN "PN"
 	1    6450 4300
 	-1   0    0    1   
 $EndComp
@@ -407,4 +418,18 @@ Text Notes 7050 4700 0    60   ~ 0
 Connect to the case with\n15 cm of 0.5 mm² (AWG 20) wire 
 Text Notes 5100 5000 0    60   ~ 0
 Cable used: 4 core, 0.75 mm², outer diameter <= 6.2 mm like\nBelden 4GB-BC50 (Farnell 2892539) or Lapp Kabel 1312104 (Farnell 1491515)
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F938066
+P 3050 2750
+F 0 "#FLG0101" H 3050 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 2950 50  0000 C CNN
+F 2 "" H 3050 2750 50  0001 C CNN
+F 3 "~" H 3050 2750 50  0001 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2750 3050 2800
+Connection ~ 3050 2800
 $EndSCHEMATC

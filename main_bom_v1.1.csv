@@ -1,0 +1,24 @@
+Component,Quantity Per PCB,References,Value,MFN,PN,Description,Footprint,Vendor,rs#,Note
+1,2,BP1 BP3,Conn_01x01,Pomona,4243-0,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",TestPoint_Keystone_5019_Minature,,,
+2,1,BP5,Conn_01x01,Pomona,3760-5,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",TestPoint_Keystone_5019_Minature,,,
+3,4,C605-C608,220p,Vishay,F221K25Y5RN6UK5R,Unpolarized capacitor,C_Disc_D6.0mm_W4.4mm_P5.00mm,,,
+4,2,C603-C604,4.7n,Kemet,R413F147000M1K,Unpolarized capacitor,C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4,,,
+5,1,J1,Conn_01x01,RS PRO,433-028,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",TestPoint_THTPad_D2.0mm_Drill1.0mm,RS Components,433-028,
+6,1,J615,Conn_01x04_Male,Molex,26-60-4040;09-50-8041:2,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical,,,Also needed: Molex 09-50-8041
+7,6,L601-L606,150n,TDK,TFM252012ALMAR15MTAA,Inductor,L_1008_2520Metric,,,
+
+
+
+
+
+Component Groups:,8
+Component Count:,19
+Fitted Components:,17
+Number of PCBs:,1
+Total components:,17
+Schematic Version:,v1.1
+Schematic Date:,2020-10-23
+PCB Variant:,default
+BoM Date:,2020-10-24T00:36:55 CEST
+Schematic Source:,/home/maat/Documents/Uni/Physik/Phd/66332B Binding Posts/main.sch
+KiCad Version:,Eeschema 5.1.7
