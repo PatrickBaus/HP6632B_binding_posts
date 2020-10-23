@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "HP 6623B Front Panel Binding Posts PCB"
-Date "2020-09-17"
-Rev "v1.0"
+Title "HP 6632B Front Panel Binding Posts PCB"
+Date "2020-10-23"
+Rev "v1.1"
 Comp ""
 Comment1 "Copyright (©) 2020, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>"
 Comment2 "Licensed under CERN OHL v.1.2"
