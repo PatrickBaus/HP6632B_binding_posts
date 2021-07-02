@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HP 6632B Front Panel Binding Posts PCB"
-Date "2020-10-23"
-Rev "v1.1"
+Date "2021-07-03"
+Rev "v1.1.1"
 Comp ""
 Comment1 "Copyright (©) 2020, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>"
 Comment2 "Licensed under CERN OHL v.1.2"
@@ -414,10 +414,10 @@ Wire Wire Line
 	1800 2650 1800 1900
 Wire Wire Line
 	1800 1900 2350 1900
-Text Notes 7050 4700 0    60   ~ 0
-Connect to the case with\n15 cm of 0.5 mm² (AWG 20) wire 
-Text Notes 5100 5000 0    60   ~ 0
-Cable used: 4 core, 0.75 mm², outer diameter <= 6.2 mm like\nBelden 4GB-BC50 (Farnell 2892539) or Lapp Kabel 1312104 (Farnell 1491515)
+Text Notes 7900 4450 0    60   ~ 0
+Connect to the case with\n15 cm of 0.5 mm² (AWG 20) wire.\na serrated washer and an M3x8\npan head screw.
+Text Notes 5100 5300 0    60   ~ 0
+Cable used: 4 core, 0.75 mm², outer diameter <= 6.2 mm like\nBelden 4GB-BC50 (Farnell 2892539) or Lapp Kabel 1312104 (Farnell 1491515),\n50 cm length, remove 3.5 cm of the outer isolation on each side\nbefore crimping.
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F938066
@@ -432,4 +432,6 @@ $EndComp
 Wire Wire Line
 	3050 2750 3050 2800
 Connection ~ 3050 2800
+Text Notes 5550 4350 0    60   ~ 0
+Crimp cable shoe
 $EndSCHEMATC
