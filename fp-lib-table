@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name "Custom Footprints")(type KiCad)(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
-  (lib (name Custom_footprints_project)(type KiCad)(uri ${KIPRJMOD}/footprints_project_specific.pretty)(options "")(descr "Project specific parts. Like adapted footprints."))
+  (version 7)
+  (lib (name "Custom_footprints_project")(type "KiCad")(uri "${KIPRJMOD}/footprints_project_specific.pretty")(options "")(descr "Project specific parts. Like adapted footprints."))
 )
