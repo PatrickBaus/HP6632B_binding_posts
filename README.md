@@ -12,7 +12,7 @@ This repository contains the schematics for a PCB to mount frontpanel binding po
 - [License](#license)
 
 ## Introduction
-In addition to the original option #20 PCB, this board breaks out the sense connections as well and also the chassis ground. This makes connecting multiple [HP 663xB](https://www.keysight.com/us/en/product/6632B/100-watt-system-power-supply-20v-5a.html) in parallel possible. On the downside, this requires connecting the sense pins externally. To make this easier I also made a small shorting bar. I will link this in later.
+In addition to the original option #20 PCB, this board breaks out the sense connections as well and also the chassis ground. This makes connecting multiple [HP 663xB](https://www.keysight.com/us/en/product/6632B/100-watt-system-power-supply-20v-5a.html) in parallel possible. On the downside, this requires connecting the sense pins externally. To make this easier I also made a small [shorting bar](https://github.com/PatrickBaus/HP6632B_shorting_bar) to easily short the sense terminals to the force terminals directly at the power supply output.
 
 The components chosen allow the board to be used on all variants of the HP 663xB family - even the 100 V 6634B. A variety of different binding posts can be used. There are HP/Agilent versions available on Ebay. I used [Pomona 4243-0](https://www.pomonaelectronics.com/products/hardware/double-binding-post) ([Digikey](https://www.digikey.de/product-detail/de/pomona-electronics/4243-0/501-1126-ND/604321)) and [3760-5](https://www.pomonaelectronics.com/products/hardware/binding-post-tin-plated) ([Digikey](https://www.digikey.de/product-detail/de/pomona-electronics/3760-5/501-1506-ND/736554)) binding posts.
 
