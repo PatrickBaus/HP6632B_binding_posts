@@ -2,7 +2,7 @@
 # HP 66332A and HP 6632B-6634B Frontpanel Binding Post PCB
 This repository contains the schematics for a PCB to mount frontpanel binding post on an [HP 6632B](https://www.keysight.com/us/en/product/6632B/100-watt-system-power-supply-20v-5a.html) (and siblings) power supply. It is an adaption of the original A4 PCB used in option #020 units.
 
-![Current driver circuit board](images/board.png)
+![Front panel binding post PCB](images/board.png)
 
 ## Contents
 - [Introduction](#introduction)
